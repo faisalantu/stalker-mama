@@ -27,4 +27,4 @@ create a text channel name `stalker-log`, now you are good to go.
 
 # Text Commands
 `ping` - replay with `pong`
-will add more commands in future 
+will add more commands in future
