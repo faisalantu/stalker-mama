@@ -21,7 +21,7 @@ client.on("voiceStateUpdate", async (oldMember, newMember) => {
     if (newUserChannel !== oldUserChannel) {
       sendLog(
         newMember.id,
-        `🔀 changed 🔊 voice channel from ( ${oldMember.channel.name} 👉 ${newMember.channel.name} )`,
+        ` 🔀 changed 🔊 voice channel from ( ${oldMember.channel.name} 👉 ${newMember.channel.name} )`,
         newMember
       );
     } else {
@@ -30,10 +30,10 @@ client.on("voiceStateUpdate", async (oldMember, newMember) => {
     }
   } else if (newUserChannel !== null) {
     //joined
-    sendLog(newMember.id, `✅ joined 🔊 voice channel 👉 ${newMember.channel.name}`, newMember);
+    sendLog(newMember.id, ` ✅ joined 🔊 voice channel 👉 ${newMember.channel.name}`, newMember);
   } else if (newUserChannel === null) {
     // User leaves a voice channel
-    sendLog(oldMember.id, `⛔ left 🔊 voice channel 👉 ${oldMember.channel.name}`, oldMember);
+    sendLog(oldMember.id, ` ⛔ left 🔊 voice channel 👉 ${oldMember.channel.name}`, oldMember);
   }
 });
 
