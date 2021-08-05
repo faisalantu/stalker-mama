@@ -15,6 +15,7 @@
 - [How It Works](#how-it-works)
 - [Screenshot](#screenshot)
 - [Text Commands](#text-commands)
+- [How to install on your machine](#how-to-install-on-your-machine)
 
 # How It Works
 
@@ -23,8 +24,13 @@ create a text channel name `stalker-log`, now you are good to go.
 
 # Screenshot
 
-![image](https://user-images.githubusercontent.com/26870205/128323251-6aa02e73-a1ca-4102-a591-9e1fe4cbdddb.png)
+![image](https://user-images.githubusercontent.com/26870205/128376907-7855e86c-9175-4459-b4a9-a0bafa739f0b.png)
 
 # Text Commands
 `ping` - replay with `pong`
 will add more commands in future
+
+# How to install on your machine
+Need nodeJs 12.0+, clone the repo and create `.env` file in root dir and use the `env.example`.
+After that install all needed packages write `sudo npm install`, for windows `npm install`, you can learn more about what packages i used on 👉 `package.json`.
+run the code using `npm run dev` or `npm run start`
