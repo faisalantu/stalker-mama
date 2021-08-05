@@ -1,14 +1,14 @@
 {
-  "name": "Discord-vc-log",
+  "name": "Stalker-Mama",
   "version": "1.0.0",
-  "description": "",
+  "description": "Stalks your discord voice channel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Faisal Ahmed",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3",
