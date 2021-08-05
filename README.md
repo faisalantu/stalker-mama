@@ -1,4 +1,9 @@
-# Stalker Mama 
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/26870205/128326068-002aacd5-36e8-492f-8569-223be3ad1be9.png" />
+</p>
+<h1 align="center"> Stalker-Mama </h1>
 <p align="center">
   <a href="https://discord.com/api/oauth2/authorize?client_id=872532278507601920&permissions=173946690624&scope=bot">
     <img src="https://img.shields.io/github/downloads/faisalantu/stalker-mama/total.svg" alt="NPM Version" />
@@ -7,7 +12,6 @@
 
 **Navigation** <br>
 
-- [Stalker Mama](#stalker-mama)
 - [How It Works](#how-it-works)
 - [Screenshot](#screenshot)
 - [Text Commands](#text-commands)
