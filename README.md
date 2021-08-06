@@ -4,7 +4,7 @@
 <h1 align="center"> Stalker-Mama </h1>
 <p align="center">
   <a href="https://discord.com/api/oauth2/authorize?client_id=872532278507601920&permissions=173946690624&scope=bot">
-    <span>click here to download 👉 </span>
+    <span><b>➕ Invite the bot to your server 👉 </b></span>
     <img src="https://img.shields.io/github/downloads/faisalantu/stalker-mama/total.svg" alt="NPM Version" />
   </a>
 </p>
