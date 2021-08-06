@@ -11,10 +11,18 @@
 
 **Navigation** <br>
 
+- [How to Invite the bot](#how-to-invite-the-bot)
 - [How It Works](#how-it-works)
 - [Screenshot](#screenshot)
 - [Text Commands](#text-commands)
 - [How to install on your machine](#how-to-install-on-your-machine)
+
+# How to Invite the bot
+
+<p>To invite the bot click here 👉 <a href="https://discord.com/api/oauth2/authorize?client_id=872532278507601920&permissions=173946690624&scope=bot"><span><b>➕ Invite the bot to your server.</b></span> </a></p>
+
+Now create a text channel `stalker-log` and truned notification off for the text channel.
+`NOTE: I recommend you to make the #stalker-log text channel private and give bot permission to the text channel`
 
 # How It Works
 
