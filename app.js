@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-require('dotenv').config();
+require("dotenv").config();
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -30,24 +30,44 @@ client.on("voiceStateUpdate", async (oldMember, newMember) => {
     }
   } else if (newUserChannel !== null) {
     //joined
-    sendLog(newMember.id, ` ✅ joined 🔊 voice channel 👉 ${newMember.channel.name}`, newMember);
+    sendLog(
+      newMember.id,
+      ` ✅ joined 🔊 voice channel 👉 ${newMember.channel.name}`,
+      newMember
+    );
   } else if (newUserChannel === null) {
     // User leaves a voice channel
-    sendLog(oldMember.id, ` ⛔ left 🔊 voice channel 👉 ${oldMember.channel.name}`, oldMember);
+    sendLog(
+      oldMember.id,
+      ` ⛔ left 🔊 voice channel 👉 ${oldMember.channel.name}`,
+      oldMember
+    );
   }
 });
 
 let sendLog = async (id, log, serverObj) => {
   const user = await client.users.fetch(id);
   let logString = String(user.username + " " + log);
+  let isChannel = false;
   serverObj.channel.guild.channels.cache.map((channel) => {
     if (channel.name === "stalker-log") {
+      isChannel = true;
       client.channels.cache
         .get(channel.id)
         .send(log ? `${user}` + " " + log : "something happend");
     } else {
     }
   });
+  if(!isChannel) createPrivateChannel(serverObj,"stalker-log")
+  
+};
+
+// creates only private channel
+//@Todo: make it private
+const createPrivateChannel = async (serverObj, channelName) => {
+  serverId = serverObj.guild.id;
+  const guild = await client.guilds.fetch(serverId);
+  await guild.channels.create(channelName, 'text');
 };
 
 client.login(process.env.DISCORD_API_SECRET);
