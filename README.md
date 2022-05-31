@@ -3,7 +3,7 @@
 </p>
 <h1 align="center"> Stalker-Mama </h1>
 <p align="center">
-  <a href="https://discord.com/api/oauth2/authorize?client_id=872532278507601920&permissions=173946690624&scope=bot">
+  <a href="https://discord.com/oauth2/authorize?client_id=872532278507601920&permissions=414498384976&scope=bot">
     <span><b>➕ Invite the bot to your server 👉 </b></span>
     <img src="https://img.shields.io/github/downloads/faisalantu/stalker-mama/total.svg" alt="NPM Version" />
   </a>
@@ -19,15 +19,14 @@
 
 # How to Invite the bot
 
-<p>To invite the bot click here 👉 <a href="https://discord.com/api/oauth2/authorize?client_id=872532278507601920&permissions=173946690624&scope=bot"><span><b>➕ Invite the bot to your server.</b></span> </a></p>
+<p>To invite the bot click here 👉 <a href="https://discord.com/oauth2/authorize?client_id=872532278507601920&permissions=414498384976&scope=bot"><span><b>➕ Invite the bot to your server.</b></span> </a></p>
 
 Now create a text channel `stalker-log` and truned notification off for the text channel.
 `NOTE: I recommend you to make the #stalker-log text channel private and give bot permission to the text channel`
 
 # How It Works
 
-Stalker Mama logs who join your discord voice chat. For that all you need to do is add Stalker Mama to your server and
-create a text channel name `stalker-log`, now you are good to go.
+Stalker Mama logs who join your discord voice chat. For that all you need to do is add Stalker Mama to your server🎉. The bot will create a text channel name `stalker-log`, now you are good to go.
 
 # Screenshot
 
